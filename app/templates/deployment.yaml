@@ -8,6 +8,6 @@ spec:
       containers:
       - name: "{{ .Values.jobName }}"
         image: perl
-        command: ["perl",  "-Mbignum=bpi", "-wle", "sleep(500);"]
+        command: ["perl",  "-Mbignum=bpi", "-wle", "sleep(50);"]
       restartPolicy: Never
   backoffLimit: 4
