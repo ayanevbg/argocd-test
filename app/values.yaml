@@ -1,1 +1,2 @@
-jobName: pi
+mariadb:
+  enabled: false
