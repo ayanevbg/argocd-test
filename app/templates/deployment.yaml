@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: "{{ .Values.jobName }}-2"
+  name: "{{ .Values.jobName }}"
 spec:
   template:
     spec:
